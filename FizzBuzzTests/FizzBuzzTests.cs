@@ -23,5 +23,12 @@ namespace FizzBuzzTests
             string actual = FizzBuzzer.GetAnswer(input);
             Assert.That(actual, Is.EqualTo(expected));
         }
+
+        [TestCase(15, "FizzBuzz")]
+        public static void should_return_FizzBuzz_when_input_is_multiple_of_three_and_five(int input, string expected)
+        {
+            string actual = FizzBuzzer.GetAnswer(input);
+            Assert.That(actual, Is.EqualTo(expected));
+        }
     }
 }
