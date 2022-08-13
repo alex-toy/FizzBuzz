@@ -15,7 +15,9 @@ namespace FizzBuzzTests
 
         [TestCase(6, "Fizz")]
         [TestCase(9, "Fizz")]
-        public static void should_return_Fizz_when_input_is_multiple_of_three(int input, string expected)
+        [TestCase(10, "Buzz")]
+        [TestCase(15, "Buzz")]
+        public static void should_return_proper_output_when_input_is_multiple_of_three_or_five(int input, string expected)
         {
             string actual = FizzBuzzer.GetAnswer(input);
             Assert.That(actual, Is.EqualTo(expected));
