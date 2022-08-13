@@ -1,0 +1,12 @@
+C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.deps.json
+C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.dll
+C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.pdb
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.AssemblyReference.cache
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfoInputs.cache
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfo.cs
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CoreCompileInputs.cache
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.dll
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\refint\FizzBuzzTests.dll
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.pdb
+C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\ref\FizzBuzzTests.dll
