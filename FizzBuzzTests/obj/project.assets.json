@@ -876,6 +876,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "FizzBuzz/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FizzBuzz.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FizzBuzz.dll": {}
+        }
       }
     }
   },
@@ -3749,10 +3759,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "FizzBuzz/1.0.0": {
+      "type": "project",
+      "path": "../FizzBuzz/FizzBuzz.csproj",
+      "msbuildProject": "../FizzBuzz/FizzBuzz.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FizzBuzz >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.0",
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.2.1"
@@ -3784,7 +3800,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
+              "projectPath": "C:\\source\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

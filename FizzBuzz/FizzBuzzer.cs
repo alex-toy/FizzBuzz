@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FizzBuzz
+﻿namespace FizzBuzz
 {
     public static class FizzBuzzer
     {
+        public static string GetAnswer(int input)
+        {
+            return "";
+        }
     }
 }
