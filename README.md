@@ -12,3 +12,5 @@ Here are the rules for FizzBuzz :
 Here is the output that you will find :
 
 <img src="output.png"  width="200">
+
+Lastly, I have refactored the code so that you can add any prime number and its corresponding word, and the game will continue without major changes. You'll only have to add it up to the dictionnary **Word_Numbers**.

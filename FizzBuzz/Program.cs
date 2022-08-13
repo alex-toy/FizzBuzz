@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to FizzBuzz!");
+            FizzBuzzer.Word_Numbers = new Dictionary<string, int>() { { "Fizz", 3 }, { "Buzz", 5 } };
             ShowResult();
         }
         
