@@ -4,9 +4,11 @@
     {
         public static string GetAnswer(int input)
         {
-            if (input % 3 == 0) return "Fizz";
-            if (input % 5 == 0) return "Buzz";
-            return input.ToString();
+            string output = string.Empty;
+            if (input % 3 == 0) output = "Fizz";
+            if (input % 5 == 0) output += "Buzz";
+
+            return string.IsNullOrEmpty(output) ?  input.ToString() : output;
         }
     }
 }
