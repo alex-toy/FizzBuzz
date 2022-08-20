@@ -7,6 +7,18 @@ namespace FizzBuzz
         static void Main()
         {
             //FizzBuzzerDisplay();
+            IPAddressDisplay();
+        }
+
+        private static void IPAddressDisplay()
+        {
+            IPAddress ip = new IPAddress
+            {
+                Address = "3.2.3.4"
+            };
+
+            var temp = ip.GetBinaryAddress();
+            Console.WriteLine(temp);
         }
 
         private static void FizzBuzzerDisplay()
