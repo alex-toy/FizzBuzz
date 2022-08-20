@@ -102,3 +102,5 @@ C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzz.dll
 C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzz.pdb
 C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CopyComplete
 C:\source\FizzBuzz\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.genruntimeconfig.cache
+C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzerLib.dll
+C:\source\FizzBuzz\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzerLib.pdb

@@ -1,21 +1,27 @@
-﻿namespace FizzBuzz
+﻿using FizzBuzzerLib;
+
+namespace FizzBuzz
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
+        {
+            FizzBuzzerDisplay();
+        }
+
+        private static void FizzBuzzerDisplay()
         {
             Console.WriteLine("Welcome to FizzBuzz!");
-            FizzBuzzer.Word_Numbers = new Dictionary<string, int>() { { "Fizz", 3 }, { "Buzz", 5 } };
-            ShowResult();
-        }
-        
-        private static void ShowResult()
-        {
-            for (int i = 0; i <= 100; i++)
+            Dictionary<string, int> word_Numbers = new() { { "Fizz", 3 }, { "Buzz", 5 } };
+            FizzBuzzer fb = new()
             {
-                string output = FizzBuzzer.GetAnswer(i);
-                Console.WriteLine($"{i} -> {output}");
-            }
+                Word_Numbers = word_Numbers
+            };
+
+            int begin = 1;
+            int end = 100;
+
+            fb.ShowResults(word_Numbers, begin, end);
         }
     }
 }

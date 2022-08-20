@@ -4,6 +4,21 @@
     "C:\\source\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {}
   },
   "projects": {
+    "C:\\source\\FizzBuzz\\FizzBuzzerLib\\FizzBuzzerLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\source\\FizzBuzz\\FizzBuzzerLib\\FizzBuzzerLib.csproj",
+        "projectName": "FizzBuzzerLib",
+        "projectPath": "C:\\source\\FizzBuzz\\FizzBuzzerLib\\FizzBuzzerLib.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\source\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\source\\FizzBuzz\\FizzBuzzerLib\\FizzBuzzerLib.csproj": {
+                "projectPath": "C:\\source\\FizzBuzz\\FizzBuzzerLib\\FizzBuzzerLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

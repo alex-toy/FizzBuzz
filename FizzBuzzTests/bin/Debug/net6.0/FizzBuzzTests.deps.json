@@ -9,6 +9,7 @@
       "FizzBuzzTests/1.0.0": {
         "dependencies": {
           "FizzBuzz": "1.0.0",
+          "FizzBuzzerLib": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.0",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.2.1"
@@ -650,8 +651,16 @@
         }
       },
       "FizzBuzz/1.0.0": {
+        "dependencies": {
+          "FizzBuzzerLib": "1.0.0"
+        },
         "runtime": {
           "FizzBuzz.dll": {}
+        }
+      },
+      "FizzBuzzerLib/1.0.0": {
+        "runtime": {
+          "FizzBuzzerLib.dll": {}
         }
       }
     }
@@ -978,6 +987,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "FizzBuzz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FizzBuzzerLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

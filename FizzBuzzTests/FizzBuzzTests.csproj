@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FizzBuzzerLib\FizzBuzzerLib.csproj" />
     <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj" />
   </ItemGroup>
 

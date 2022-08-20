@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "FizzBuzz/1.0.0": {
+        "dependencies": {
+          "FizzBuzzerLib": "1.0.0"
+        },
         "runtime": {
           "FizzBuzz.dll": {}
+        }
+      },
+      "FizzBuzzerLib/1.0.0": {
+        "runtime": {
+          "FizzBuzzerLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FizzBuzz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FizzBuzzerLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

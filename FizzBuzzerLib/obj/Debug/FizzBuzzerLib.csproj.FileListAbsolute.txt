@@ -1,0 +1,10 @@
+C:\source\FizzBuzz\FizzBuzzerLib\bin\Debug\FizzBuzzerLib.dll
+C:\source\FizzBuzz\FizzBuzzerLib\bin\Debug\FizzBuzzerLib.pdb
+C:\source\FizzBuzz\FizzBuzzerLib\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\source\FizzBuzz\FizzBuzzerLib\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\source\FizzBuzz\FizzBuzzerLib\bin\Debug\Microsoft.Analytics.Types.dll
+C:\source\FizzBuzz\FizzBuzzerLib\obj\Debug\FizzBuzzerLib.csproj.AssemblyReference.cache
+C:\source\FizzBuzz\FizzBuzzerLib\obj\Debug\FizzBuzzerLib.csproj.CoreCompileInputs.cache
+C:\source\FizzBuzz\FizzBuzzerLib\obj\Debug\FizzBuzzerLib.csproj.CopyComplete
+C:\source\FizzBuzz\FizzBuzzerLib\obj\Debug\FizzBuzzerLib.dll
+C:\source\FizzBuzz\FizzBuzzerLib\obj\Debug\FizzBuzzerLib.pdb

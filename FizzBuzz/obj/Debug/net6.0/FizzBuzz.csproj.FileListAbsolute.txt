@@ -13,3 +13,6 @@ C:\source\FizzBuzz\FizzBuzz\obj\Debug\net6.0\refint\FizzBuzz.dll
 C:\source\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
 C:\source\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.genruntimeconfig.cache
 C:\source\FizzBuzz\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
+C:\source\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzzerLib.dll
+C:\source\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzzerLib.pdb
+C:\source\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.CopyComplete
