@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         static void Main()
         {
-            FizzBuzzerDisplay();
+            //FizzBuzzerDisplay();
         }
 
         private static void FizzBuzzerDisplay()
