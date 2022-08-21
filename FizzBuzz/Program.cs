@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         static void Main()
         {
-            //FizzBuzzerDisplay();
+            FizzBuzzerDisplay();
             IPAddressDisplay();
         }
 
@@ -30,10 +30,12 @@ namespace FizzBuzz
                 Word_Numbers = word_Numbers
             };
 
+            ConsoleDisplay Cd = new() { Fb = fb };
+
             int begin = 1;
             int end = 100;
 
-            fb.ShowResults(word_Numbers, begin, end);
+            Cd.ShowResults(begin, end);
         }
     }
 }

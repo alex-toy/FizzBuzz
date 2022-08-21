@@ -43,7 +43,9 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleDisplay.cs" />
     <Compile Include="FizzBuzzer.cs" />
+    <Compile Include="IDisplayMethod.cs" />
     <Compile Include="IPAddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

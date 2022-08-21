@@ -23,25 +23,12 @@ namespace FizzBuzzerLib
             return output;
         }
 
-        private IEnumerable<string> IterateRange(int begin, int end)
+        public IEnumerable<string> IterateRange(int begin, int end)
         {
             for (int i = begin; i <= end; i++)
             {
                 string output = this.GetAnswer(i);
                 yield return output;
-            }
-        }
-
-        public void ShowResults(Dictionary<string, int> word_Numbers, int begin, int end)
-        {
-            int index = begin;
-
-            this.Word_Numbers = word_Numbers;
-
-            foreach (string output in this.IterateRange(begin, end))
-            {
-                Console.WriteLine($"{index} -> {output}");
-                index++;
             }
         }
     }
